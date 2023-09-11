@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Ubuntu:ital@1&display=swap');
+
+
+:root{
+    --cor-1:  #d9ee61e5;
+    --cor-2: #495346;
+    --font-1: 'Ubuntu', sans-serif;
+    --font-2: 'Krona One', sans-serif;
+}
+
+body{
+    background-color:var(--cor-1);
+    font-size: 20px;
+    font-family: var(--font-2);
+}
+
+.titulo{
+    color: var(--cor-2);
+    font-size: 40px;
+    font-family: var(--font-1);
+}
+
+.geral{
+    display: flex;
+    align-items: center;
+    padding: 8% 6% 6% 6%;
+    justify-content: center;
+    gap: 10rem;
+}
+
+.apresentacao{
+    font-family: var(--font-2);
+    color: var(--cor-2);
+}
+
+.link__contato{
+    text-decoration: none;
+    color: var(--cor-2);
+    font-family: var(--font-2);
+}
+
+.lista{
+    list-style: none;
+    font-family:var(--font-2) ;
+    color: var(--cor-2);
+}
+
+.rodade{
+    display: flex;
+    flex-direction: column;
+   
+}
